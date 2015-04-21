@@ -35,7 +35,6 @@ module Bouncer
         post_data = "
           bounced_time: #{sqs.bounced_time}
           send_time: #{sqs.send_time}
-          source_address: #{sqs.source_address}
           destination_address: #{masked_dest_addrs}
         "
         slack.post(post_data.to_s)
