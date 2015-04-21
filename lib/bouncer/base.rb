@@ -7,7 +7,7 @@ module Bouncer
       @options = {
         config_file: File.join(File.dirname(__FILE__), '../../.config.yml'),
         daemonized: false,
-        pid: "/var/run/bouncer.pid"
+        pid: "/tmp/bouncer.pid"
       }
       optparse = OptionParser.new
       optparse.on("-c [CONFIG_FILE]", "--config [CONFIG_FILE]", "config file") do |file|
