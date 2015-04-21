@@ -1,0 +1,15 @@
+aws:
+  account_id: XXXXX
+  access_key_id: XXXX
+  secret_access_key: XXXX
+  region: ap-northeast-1
+  sqs:
+    queue: XXXX
+
+slack:
+  webhook_url: https://hooks.slack.com/services/XXXXXXXXXXX
+  channel: xxxx
+  username: xxxx
+  icon_emoji: ghost
+  # icon_url: "http://static.mailchimp.com/web/favicon.png"
+
